@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav chauhan - web developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6da46f61f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi, I am <span>Pranav</span> <br>Chauhan From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit eligendi perferendis maiores
+                        veritatis nemo, quae et aliquid soluta sunt harum voluptates minus sint voluptatem! Eius ratione
+                        omnis qui magni minima in officia dolor beatae architecto quae libero quia, tempora iure tenetur
+                        nobis animi eum nulla cum non alias provident?</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web developer</span><br>Marketing</li>
+                            <li><span>Web development</span><br>web app development</li>
+                            <li><span>Web developer</span><br>Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Nov 2021-May 2022</span><br>Marketing director at Youth India Foundation </li>
+                            <li><span>Nov 2021-May 2022</span><br>Marketing director at Youth India E-School</li>
+                            <li><span>Web developer</span><br>Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Class 10 from C.R.P.F. Public School</li>
+                            <li><span>2021</span><br>Class 12 from C.R.P.F. Public School</li>
+                            <li><span>2024</span><br>BBA-IT from Symbiosis International University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------services--------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam neque suscipit
+                        repellendus dolores mollitia nihil iste corrupti deleniti dolore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Front end Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam neque suscipit
+                        repellendus dolores mollitia nihil iste corrupti deleniti dolore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Backend development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam neque suscipit
+                        repellendus dolores mollitia nihil iste corrupti deleniti dolore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="phone1.jpg" alt="">
+                <div class="layer">
+                    <h3>Cloned Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum commodi at obcaecati consequuntur laboriosam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="phone2.jpg" alt="">
+                <div class="layer">
+                    <h3>Music Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum commodi at obcaecati consequuntur laboriosam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="phone3.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum commodi at obcaecati consequuntur laboriosam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ----------------------------------------contact me--------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Pranavc344@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>122346789</p>
+                <div class="social-icons">
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    <a href="https://github.com/pranav9005"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/pranavchau/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/pranav resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your E-mail" required>
+                    <input type="message" rows="6" placeholder="Enter Your Message" required>
+                    <button type="submit"class="btn btn2">Submit</button>
+                    <button type="clear" class="btn btn2">Clear</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pranav.</p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
